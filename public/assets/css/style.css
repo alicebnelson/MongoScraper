@@ -1,7 +1,9 @@
 
 body {
 	background-image: url(../img/nyt-newsprint.jpg);
-	background-position: center;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -10,8 +12,8 @@ h1, h2, h3, h4 {
 }
 
 .btn-danger {
-  background-color: #722b2b;
-  border-color: #722b2b;
+  background-color: #74076e;
+  border-color: #74076e;
 }
 
 .btn-danger:hover {
@@ -29,7 +31,7 @@ h1, h2, h3, h4 {
 }
 
 .artLink {
-  color: #722b2b;
+  color: #74076e;
 }
 
 .saved-buttons {
@@ -37,11 +39,11 @@ h1, h2, h3, h4 {
 }
 
 .noteText {
-  color: #722b2b;
+  color: #74076e;
 }
 
 .deletex {
-  color: #722b2b;
+  color: #74076e;
 }
 
 .modal-body{
@@ -52,8 +54,8 @@ h1, h2, h3, h4 {
 
 .alert-warning {
 	color: #fff;
-	background-color: #722b2b;
-	border-color: #722b2b;
+	background-color: #74076e;
+	border-color: #74076e;
 }
 
 .main-img {
@@ -65,3 +67,8 @@ h1, h2, h3, h4 {
 .savedArt {
 	margin: 0 auto;
 	width: 80%;
+}
+
+.container-fluid {
+	background-color: #4b4b4b;
+	}
